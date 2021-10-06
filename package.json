@@ -1,16 +1,16 @@
 {
-  "name": "err-msg",
+  "name": "catch-err-msg",
   "version": "0.0.0",
   "description": "Helper function to extract error message for TypeScript 4.4+ `catch` clause",
   "type": "module",
   "exports": "./dist/main.js",
   "types": "./dist/main.d.ts",
   "author": "Mgenware (https://github.com/mgenware)",
-  "homepage": "https://github.com/mgenware/err-msg",
-  "bugs": "https://github.com/mgenware/err-msg/issues",
+  "homepage": "https://github.com/mgenware/catch-err-msg",
+  "bugs": "https://github.com/mgenware/catch-err-msg/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mgenware/err-msg"
+    "url": "https://github.com/mgenware/catch-err-msg"
   },
   "license": "MIT",
   "scripts": {
