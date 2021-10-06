@@ -1,6 +1,6 @@
 {
   "name": "catch-err-msg",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Helper function to extract error message for TypeScript 4.4+ `catch` clause",
   "type": "module",
   "exports": "./dist/main.js",
