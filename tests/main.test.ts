@@ -14,5 +14,9 @@ it('Non-error', () => {
 });
 
 it('null', () => {
-  assert.strictEqual(errMsg(null), '');
+  assert.strictEqual(errMsg(null), 'null');
+});
+
+it('0', () => {
+  assert.strictEqual(errMsg(0), '0');
 });
