@@ -23,9 +23,6 @@ try {
 
 ```ts
 export default function errMsg(err: any): string {
-  if (!err) {
-    return '';
-  }
-  return err.message ? `${err.message}` : `${err}`;
+  return err?.message ? `${err.message}` : `${err}`;
 }
 ```
